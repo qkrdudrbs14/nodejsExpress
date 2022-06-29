@@ -15,7 +15,6 @@ app.use(cookieParser())
 
 app.get("/", (req, res) => {
     const {token} = req.cookies;
-    console.log(token);
     if(token === undefined) {
         return res.sendFile(__dirname + "/html/login.html")
     }
