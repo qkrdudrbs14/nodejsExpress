@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="button" value="logout" onclick="document.location.href='./logout'" />
+    </div>
+    index.html <br/>
+    <input type="button" value="test1" onclick="javascript:fnMove('test1')"/>
+    <input type="button" value="test2" onclick="javascript:fnMove('test2')"/>
+
+    <script type="text/javascript">
+
+        function fnMove(_param) {
+
+            switch(_param) {
+                case 'test1':
+                    document.location.href = './test/test1'
+                break;
+                case 'test2':
+                    document.location.href = './test/test2'
+                break;
+            }
+        }
+
+    </script>
+</body>
+</html>
