@@ -9,5 +9,5 @@ npm install mongodb
 npm install mysql   
     
     
-기상정보 api
+기상정보 api        
 https://openweathermap.org/api
